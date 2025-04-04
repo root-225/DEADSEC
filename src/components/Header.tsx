@@ -25,6 +25,9 @@ export default function Header() {
   const navigation = [
     { name: 'Accueil', href: '/' },
     { name: 'Services', href: '/services-list' },
+    { name: 'E-books', href: '/ebooks' },
+    { name: 'Formations', href: '/formations' },
+    { name: 'Blog', href: '/blog' },
     { name: 'À propos', href: '/about' },
     { name: 'Contact', href: '/contact' },
   ];

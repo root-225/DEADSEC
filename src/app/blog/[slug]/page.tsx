@@ -171,7 +171,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
   
   return {
-    title: \`\${post.title} | Deadsec\`,
+    title: `${post.title} | Deadsec`,
     description: post.excerpt,
   };
 }
@@ -186,7 +186,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-gray-900 to-gray-800 text-white py-16 px-4 sm:px-6 lg:px-8">
+      <section className="bg-gradient-to-b from-gray-900 to-gray-800 text-white pt-28 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <Link href="/blog" className="inline-flex items-center text-blue-400 hover:text-blue-300 mb-6 transition-colors">
             <FaArrowLeft className="mr-2" />

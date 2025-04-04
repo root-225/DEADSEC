@@ -28,7 +28,7 @@ export default function Hero() {
   useEffect(() => {
     setIsVisible(true);
     const interval = setInterval(() => {
-      setCurrentFeature((prev) => (prev + 1) % features.length);
+      setCurrentFeature((prev: number) => (prev + 1) % features.length);
     }, 4000);
     return () => clearInterval(interval);
   }, []);
